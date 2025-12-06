@@ -1,0 +1,9 @@
+.wrapper {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.title {
+  font-family: Greycliff CF, var(--mantine-font-family);
+  font-weight: 900;
+}

@@ -1,0 +1,50 @@
+.hero {
+  background-color: #f8f9fa;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title {
+  color: #000;
+  font-family: Greycliff CF, var(--mantine-font-family);
+  font-weight: 900;
+  line-height: 1.2;
+  font-size: 50px;
+}
+
+.highlight {
+  color: #228be6;
+}
+
+.description {
+  color: #5c5f66;
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.control {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: Greycliff CF, var(--mantine-font-family);
+  font-size: 18px;
+}
+
+@media (max-width: 48em) {
+  .hero {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .title {
+    font-size: 34px;
+  }
+  .description {
+    font-size: 16px;
+  }
+}

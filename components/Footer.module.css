@@ -1,0 +1,22 @@
+.footer {
+  margin-top: 120px;
+  border-top: 1px solid lightgray;
+  background-color: white;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 36em) {
+  .inner {
+    flex-direction: column;
+  }
+  .links {
+    margin-top: 20px;
+  }
+}

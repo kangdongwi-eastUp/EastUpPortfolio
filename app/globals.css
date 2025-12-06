@@ -1,0 +1,10 @@
+@import '@mantine/core/styles.css';
+
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+}
+
+body {
+  background-color: #f8f9fa;
+}
