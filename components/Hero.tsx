@@ -8,6 +8,7 @@ export function Hero() {
     <div className={classes.hero} id="hero">
       <Container size="md" className={classes.container}>
         <div className={classes.inner}>
+          <img src="/profile.jpg" alt="Profile" className={classes.profileImage} />
           <Title className={classes.title}>
             Reliable & Experienced <br />
             <Text component="span" className={classes.highlight} inherit>

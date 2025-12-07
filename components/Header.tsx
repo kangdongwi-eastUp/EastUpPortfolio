@@ -32,7 +32,7 @@ export function Header() {
   return (
     <header className={classes.header}>
       <Container size="md" className={classes.inner}>
-        <Text fw={700} size="lg" c="blue.9">EastUp Dev</Text>
+        <Text fw={700} size="lg" c="blue.9">EastUp Portfolio</Text>
         <Group gap={5} visibleFrom="xs">
           {items}
         </Group>

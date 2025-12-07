@@ -48,3 +48,10 @@
     font-size: 16px;
   }
 }
+.profileImage {
+  width: 180px;               /* 원형 이미지 크기 */
+  height: 180px;
+  border-radius: 50%;         /* 원형 */
+  object-fit: cover;
+  margin-bottom: 24px;        /* 텍스트와 간격 */
+}
